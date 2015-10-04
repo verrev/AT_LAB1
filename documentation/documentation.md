@@ -8,6 +8,7 @@ Used tools:
 	Git provider: GitHub
 	Documentation written in: Notepad++
 	APIs: Spring MVC
+	Front end: Bootstrap, custom css
 	Techniques used: KISS, YAGNI, CleanCode
 	
 Architecture:
@@ -21,7 +22,7 @@ Architecture:
 	them.
 
 
-	Code review: non-existant since the other team did not do the task.
+	Code review: non-existant since to my knowledge, the other team did not do the task.
 	
 	
 	Vootele Verrev 142683IAPB

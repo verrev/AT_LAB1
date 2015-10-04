@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    color: #d1d1d1;
+}

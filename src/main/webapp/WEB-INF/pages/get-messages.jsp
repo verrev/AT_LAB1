@@ -3,18 +3,21 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <link href="<c:url value="/resources/css/style.css" />" rel="stylesheet">
+    <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
 </head>
 <body>
 <div class="container">
 
     <div class="header">
+        <h1>Your messages</h1><br>
     </div>
 
     <div class="content">
         <form action="/main" method="POST">
-            Message<br>
-            <input type="text" name="message"><br>
-            <input type="submit" value="Add message">
+            New message<br>
+            <input type="text" name="message"><br><br>
+            <input type="submit" class="btn btn-success" value="Add message"><br><br>
         </form>
 
         <c:forEach items="${messages}" var="m">
